@@ -6,6 +6,27 @@
       "telefono": "12",
       "empresa": "12212",
       "id": 26
+    },
+    {
+      "nombre": "Edinson",
+      "email": "figueroaedinson@gmail.com",
+      "telefono": "3505109535",
+      "empresa": "rappi",
+      "id": 27
+    },
+    {
+      "nombre": "sonia",
+      "email": "sonia@gmail.com",
+      "telefono": "3092767672",
+      "empresa": "casa",
+      "id": 28
+    },
+    {
+      "nombre": "JOSE FIGUEROA",
+      "email": "JOSE@GMAIL.COM",
+      "telefono": "8834822",
+      "empresa": "ALFAJOL",
+      "id": 29
     }
   ]
 }
