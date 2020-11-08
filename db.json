@@ -1,32 +1,18 @@
 {
   "clientes": [
     {
-      "nombre": "Juan NUEVO!",
-      "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
-      "id": 26
-    },
-    {
       "nombre": "Edinson",
       "email": "figueroaedinson@gmail.com",
       "telefono": "3505109535",
       "empresa": "rappi",
-      "id": 27
+      "id": 1
     },
     {
-      "nombre": "sonia",
-      "email": "sonia@gmail.com",
-      "telefono": "3092767672",
+      "nombre": "SONIA RODRIGUEZ",
+      "email": "soni@gmail.com",
+      "telefono": "222222",
       "empresa": "casa",
-      "id": 28
-    },
-    {
-      "nombre": "JOSE FIGUEROA",
-      "email": "JOSE@GMAIL.COM",
-      "telefono": "8834822",
-      "empresa": "ALFAJOL",
-      "id": 29
+      "id": 3
     }
   ]
 }

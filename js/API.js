@@ -1,4 +1,4 @@
-const url = "http://localhost:4000/clientes";
+const url = "http://localhost:3000/clientes";
 
 export const nuevoCliente = async cliente => {
     
@@ -23,6 +23,43 @@ export const obtenerClientes = async () =>{
         const resultado = await fetch(url);
         const clientes  = await resultado.json();
         return clientes;
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export const  eliminarClienteJSON = async id =>{
+    try {
+        await fetch(`${url}/${id}`,{
+            method : 'DELETE'
+        });
+           
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export const obtenerClientesID = async id =>{
+    try {
+        const resultado = await fetch(`${url}/${id}`);
+        const clientes  = await resultado.json();
+        return clientes;
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export const  actualizarClienteJSON = async cliente =>{
+    try {
+        await fetch(`${url}/${cliente.id}`, {
+            method : 'PUT',
+            body   : JSON.stringify( cliente ),
+            headers: {
+                'Content-type': 'application/json'
+            }
+        });
+        window.location.href = 'index.html'
+           
     } catch (error) {
         console.log(error);
     }
